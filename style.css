@@ -1,0 +1,113 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 300px;
+}
+
+header {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 30px;
+}
+
+#form-outer {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 700px;
+    padding: 15px;
+    padding-top: 15px;
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 45%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+.rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.input-field {
+    height: 20px;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+}
+
+#userAge {
+    width: 40px;
+}
+
+.userRatings,
+input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+}
+
+#submit {
+    background-color: rgb(228, 126, 143);
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5em;
+    height: 50px;
+    width: 100px;
+    margin: 15px;
+    border: 0px solid;
+}
+
+.dropdown {
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    margin: 15px;
+    margin-top: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+}
+
+.radio,
+.checkbox {
+    position: relative;
+    left: -45px;
+    margin-left: 15px;
+    display: block;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 833px) {
+    .input-field {
+        width: 80%;
+    }
+    select {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .labels {
+        width: 100%;
+        text-align: left;
+    }
+    .rightTab {
+        width: 80%;
+        float: left;
+    }
+    .input-field {
+        width: 100%;
+    }
+    select {
+        width: 100%;
+    }
+}
